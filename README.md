@@ -19,7 +19,7 @@ A simple, clean note-taking web app built with Flask and SQLite. Create, edit, d
 
 ## Setup
 
-\`\`\`bash
+```bash
 # Clone the repo
 git clone <your-repo-url>
 cd notes-app
@@ -33,13 +33,13 @@ pip install -r requirements.txt
 
 # Run the app
 python app.py
-\`\`\`
+```
 
 Visit `http://127.0.0.1:5000` in your browser. The SQLite database (`notes.db`) is created automatically on first run.
 
 ## Project Structure
 
-\`\`\`
+```
 notes-app/
 ├── app.py                 # Flask app, routes, models
 ├── requirements.txt
@@ -49,7 +49,7 @@ notes-app/
     ├── base.html
     ├── index.html          # Notes list, search, filter
     └── form.html           # Create/edit form
-\`\`\`
+```
 
 ## Possible Extensions
 
